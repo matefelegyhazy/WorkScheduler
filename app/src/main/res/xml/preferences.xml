@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/default_time_settings">
+        <com.matefelegyhazy.workscheduler.TimePreference
+            android:key="default_time_start"
+            android:title="@string/set_default_time_start"/>
+        <com.matefelegyhazy.workscheduler.TimePreference
+            android:key="default_time_end"
+            android:title="@string/set_default_time_end"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/default_color_settings">
+        <com.jaredrummler.android.colorpicker.ColorPreference
+            android:key="defaultBackgroundColor"
+            android:title="@string/select_default_background_color"
+            app:cpv_dialogTitle="@string/select_default_background_color" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/calendar">
+        <EditTextPreference
+            android:key="eventName"
+            android:title="@string/set_name_of_events"/>
+        <ListPreference
+            android:key="localCalendars"
+            android:title="@string/choose_destination_calendar"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/email_settings">
+        <EditTextPreference
+            android:key="email_recipient"
+            android:title="@string/set_recipient" />
+        <EditTextPreference
+            android:key="email_subject"
+            android:title="@string/set_subject"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/hourly_payment_settings">
+        <EditTextPreference
+            android:key="hourly_payment_on_weekdays"
+            android:title="@string/set_payment_weekdays"/>
+        <EditTextPreference
+            android:key="hourly_payment_on_weekends"
+            android:title="@string/set_payment_weekends"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

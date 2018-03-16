@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="aut.bme.hu.androidwallet.MainActivity">
+    <item
+        android:id="@+id/action_change_color"
+        android:title="@string/change_color"
+	    android:icon="@drawable/icon_change_color"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_export_to_calendar"
+        android:title="@string/export_to_calendar"
+        android:icon="@drawable/icon_export_to_calendar"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_send_email"
+        android:title="@string/send_email"
+        android:icon="@drawable/icon_send_email"
+        app:showAsAction="always" />
+</menu>
