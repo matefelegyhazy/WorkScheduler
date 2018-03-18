@@ -10,6 +10,19 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="com.matefelegyhazy.workscheduler.Category" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="com.matefelegyhazy.workscheduler.Value" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginLeft">56dp</item>
+    </style>
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />

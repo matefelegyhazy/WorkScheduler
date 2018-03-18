@@ -8,7 +8,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
     }
@@ -34,5 +34,6 @@ dependencies {
     compile 'com.jaredrummler:colorpicker:1.0.1'
     compile 'com.github.satyan:sugar:1.4'
     compile 'com.github.PhilJay:MPAndroidChart:v3.0.2'
+    compile 'com.thomashaertel:multispinner:0.1.1@aar'
     testCompile 'junit:junit:4.12'
 }

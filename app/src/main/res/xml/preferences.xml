@@ -39,10 +39,12 @@
     <PreferenceCategory android:title="@string/hourly_payment_settings">
         <EditTextPreference
             android:key="hourly_payment_on_weekdays"
-            android:title="@string/set_payment_weekdays"/>
+            android:title="@string/set_payment_weekdays"
+            android:inputType="number"/>
         <EditTextPreference
             android:key="hourly_payment_on_weekends"
-            android:title="@string/set_payment_weekends"/>
+            android:title="@string/set_payment_weekends"
+            android:inputType="number"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

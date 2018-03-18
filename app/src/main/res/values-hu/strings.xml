@@ -50,5 +50,12 @@
     <string name="income">Bevétel</string>
     <string name="income_weekdays">Hétköznap</string>
     <string name="income_weekends">Hétvégén</string>
+    <string name="choose_the_months">Válaszd ki a hónapokat</string>
+    <string name="worked_hours_on_weekdays">Ledolgozott órák száma hétköznap</string>
+    <string name="worked_hours_on_weekends">Ledolgozott órák száma hétvégén</string>
+    <string name="total_worked_hours">Ledolgozott órák száma összesen</string>
+    <string name="income_on_weekday">Bevétel hétköznapokon</string>
+    <string name="income_on_weekends">Bevétel hétvégéken</string>
+    <string name="total_income">Bevétel összesen</string>
 
 </resources>

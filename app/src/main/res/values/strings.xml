@@ -48,5 +48,12 @@
     <string name="income">Income</string>
     <string name="income_weekdays">Income on weekdays</string>
     <string name="income_weekends">Income on weekends</string>
+    <string name="choose_the_months">Choose the months</string>
+    <string name="worked_hours_on_weekdays">Worked hours on weekdays</string>
+    <string name="worked_hours_on_weekends">Worked hours on weekends</string>
+    <string name="total_worked_hours">Total worked hours</string>
+    <string name="income_on_weekday">Income on weekday</string>
+    <string name="income_on_weekends">Income on weekends</string>
+    <string name="total_income">Total income</string>
 
 </resources>
